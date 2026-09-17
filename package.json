@@ -1,0 +1,15 @@
+{
+  "name": "qvac-local-notes",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A local-first note assistant powered by QVAC on your own machine.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@qvac/sdk": "^0.19.1"
+  },
+  "license": "Apache-2.0"
+}
